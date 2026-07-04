@@ -204,7 +204,7 @@ footer {
 
 .publication-card {
   display: grid;
-  grid-template-columns: 350px minmax(0, 1fr);
+  grid-template-columns: 360px minmax(0, 1fr);
   gap: 22px;
   align-items: start;
   margin-bottom: 30px;
@@ -219,14 +219,15 @@ footer {
 }
 
 .publication-image {
-  width: 350px;
-  height: 225px;
+  width: 360px;
+  height: 230px;
   object-fit: contain;
   object-position: center;
-  border-radius: 6px;
-  border: 1px solid #e5e7eb;
-  background: #ffffff;
-  padding: 4px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  display: block;
 }
 
 .publication-content {
