@@ -20,8 +20,9 @@
         </p>
         <p>
           My research focuses on multimodal robot manipulation through visual-tactile perception and robot learning.
-          I am especially interested in tactile sensing, imitation learning, autonomous manipulation, and
-          Vision-Language-Action models for robots that can understand and interact with complex real-world environments.
+  I am interested in enabling robots to learn from human demonstrations, adapt to contact-rich interactions,
+  and recover from failures in complex real-world environments.
+  My long-term goal is to develop Vision-Language-Action models for robots that can understand, reason, and act in the physical world.
         </p>
         <p>
           Previously, I received my B.S. in Electrical and Computer Engineering from Seoul National University.
@@ -47,18 +48,18 @@
     <section class="section">
       <h2>Research</h2>
       <p>
-        I develop learning-based manipulation systems that combine visual perception, tactile sensing, and control.
-        My current work explores how robots can estimate grasp states, detect tactile failures, recover from manipulation errors,
+        I developed learning-based manipulation systems that combine visual perception, tactile sensing, and control.
+        My previous work explored how robots can estimate grasp states, detect task failures, recover from manipulation errors,
         and generate robust end-effector pose and force commands for contact-rich tasks.
       </p>
       <div class="research-grid">
         <article>
-          <h3>Visual-Tactile Manipulation</h3>
-          <p>Learning policies that use both visual and tactile information for contact-rich grasping and manipulation.</p>
+          <h3>Multimodal Robot Manipulation</h3>
+          <p>Learning policy that use both visual and tactile information for contact-rich grasping and manipulation.</p>
         </article>
         <article>
-          <h3>Tactile Failure Recovery</h3>
-          <p>Detecting and recovering from failures in deformable-object manipulation, including autonomous laundry handling.</p>
+          <h3>Failure Recovery</h3>
+          <p>Developing tactile-informed failure detection and recovery strategies for deformable-object manipulation, including autonomous laundry handling.</p>
         </article>
         <article>
           <h3>Robot Learning</h3>
@@ -98,7 +99,7 @@
       <p class="authors">M. Suh, <strong>C. Mun</strong>, H. Lee, and J. Park</p>
       <p class="venue">Proceedings of the Korea Robotics Society Annual Conference (KRoC), 2026.</p>
       <p>
-        This work proposes a tactile-only grasp state estimation method based on cumulative tactile signal changes
+        This work proposes a grasp state estimation method based on cumulative tactile signal changes
         and a 3D extension of Mean Resultant Length.
         Instead of explicitly estimating contact force or friction, the method analyzes the directional concentration
         of tactile distributions to classify no-contact, grasp, and slip states.
@@ -140,10 +141,10 @@
       <article class="project">
         <div class="project-year">2026</div>
         <div>
-          <h3>AI-based Robot Control Algorithm Development</h3>
+          <h3>Multimodal Perception for Deformable Object Manipulation</h3>
           <p class="meta">Samsung DA - Project Lead</p>
           <p>Developed an autonomous manipulation framework for deformable laundry items by integrating
-        RGB-D perception, grasp-point generation, tactile state monitoring, and motion control. The system
+        RGB-D perception, grasp-point generation, tactile state monitoring, and motion planning. The system
         aims to detect manipulation failures such as slip or contact loss and recover through closed-loop
         re-grasping strategies.</p>
         </div>
@@ -165,7 +166,7 @@
           <p class="meta">DYROS - Project Lead</p>
           <p>Developed a humanoid teleoperation pipeline using the SNU-Avatar Haptic Arm as the operator-side
         haptic interface. I built a MuJoCo simulation environment, integrated haptic-arm input with robot
-        manipulation control, and implemented object grasping scenarios for studying haptic feedback and
+        manipulation command, and implemented object grasping scenarios for studying haptic feedback and
         human demonstration collection.</p>
         </div>
       </article>
@@ -175,8 +176,7 @@
           <h3>Transparent Object Grasp Pose Estimation</h3>
           <p class="meta">Samsung SAIT - Research Assistant</p>
           <p>Developed camera-based perception and grasp pose estimation methods for transparent objects in
-        self-driving laboratory environments. The project combined RGB-D perception, depth restoration,
-        and scene understanding to support reliable robotic handling of visually challenging lab objects.</p>
+        self-driving laboratory environments. The project combined RGB-D perception, depth restoration, to support reliable robotic handling of transparent objects.</p>
         </div>
       </article>
     </section>
